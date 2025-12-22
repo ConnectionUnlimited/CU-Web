@@ -30,7 +30,7 @@
     "framer-motion": "^12.23.22",
     "gsap": "^3.13.0",
     "lucide-react": "^0.545.0",
-    "next": "^15.2.3",
+    "next": "15.2.8",
     "next-auth": "5.0.0-beta.25",
     "postgres": "^3.4.4",
     "react": "^19.0.0",
