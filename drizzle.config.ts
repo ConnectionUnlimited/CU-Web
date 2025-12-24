@@ -1,15 +1,15 @@
-import { type Config } from "drizzle-kit";
+import type { Config } from "drizzle-kit";
 
 import { env } from "@/env";
 
 export default {
-  schema: "./src/server/db/schema.ts",
-  dialect: "postgresql",
-  dbCredentials: {
-    url: env.DATABASE_URL,
-  },
-  tablesFilter: ["ConnectionUnlimited_*"],
-  migrations: {
-    table: "__drizzle_migrations_connectionunlimited__",
-  },
+	schema: "./src/server/db/schema.ts",
+	dialect: "postgresql",
+	dbCredentials: {
+		url: env.DATABASE_URL,
+	},
+	tablesFilter: ["ConnectionUnlimited_*"],
+	migrations: {
+		table: "__drizzle_migrations_connectionunlimited__",
+	},
 } satisfies Config;
