@@ -1,0 +1,7 @@
+{
+	"$schema": "https://raw.githubusercontent.com/FlexTail/npm-flextail/schema.json",
+	"aliases": {
+		"path": "@",
+		"components": "src\\components"
+	}
+}
